@@ -8,11 +8,89 @@ ul {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  background-color: white;
-  width: 100%;
-  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(125, 98, 148);
+  gap: 10px;
+  justify-content: space-between;
+}
+.navbar li {
+  padding: 10px;
+  margin: 5px 0px;
+  border: 1px dotted black;
+  border-radius: 50px;
+  background-color: rgb(185, 134, 134);
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar li:hover {
+  background-color: rgb(207, 22, 22);
+}
+.navbar li:hover a {
+  color: black;
+}
+.navbar .first ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(125, 98, 148);
+  gap: 10px;
+}
+.navbar .first ul li {
+  padding: 10px;
+  margin: 5px 0px;
+  border: 1px dotted black;
+  border-radius: 50px;
+  background-color: rgb(185, 134, 134);
+}
+.navbar .first ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .first ul li:hover {
+  background-color: rgb(207, 22, 22);
+}
+.navbar .first ul li:hover a {
+  color: black;
+}
+.navbar .first ul li {
+  position: relative;
+}
+.navbar .first ul li ul {
+  position: absolute;
+  background-color: rgb(125, 98, 148);
+  top: 40px;
+  left: 0;
+  display: none;
+}
+.navbar .first ul li:hover > ul {
+  display: block;
+  display: flex;
+  left: 0px;
+}
+.navbar .second > ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(125, 98, 148);
+  gap: 10px;
+}
+.navbar .second > ul li {
+  padding: 10px;
+  margin: 5px 0px;
+  border: 1px dotted black;
+  border-radius: 50px;
+  background-color: rgb(185, 134, 134);
+}
+.navbar .second > ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .second > ul li:hover {
+  background-color: rgb(207, 22, 22);
+}
+.navbar .second > ul li:hover a {
+  color: black;
 }
 
 .container {
@@ -47,7 +125,7 @@ ul {
 .parent .child {
   width: 100px;
   height: 100px;
-  border: 2px solid black;
+  border: 2px solid rgb(56, 43, 173);
   background-color: rgb(177, 206, 15);
   position: absolute;
   left: 50%;
