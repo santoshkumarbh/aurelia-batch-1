@@ -1,6 +1,13 @@
 # aurelia-batch-1
+
+----git commands----
+git stash
+git stash apply
+git reset --hard //to remove changes
+
+
 <!-- 
------Position-----------
+-----1. Position-----------
 Position as some 
 
 Types position
@@ -24,3 +31,11 @@ Types position
         we use property called:
             transform:translate(-50%,-50%);
             basically it contain x,y axis; -->
+
+
+--------2. Flex concepts--------
+when we use
+    display:flex;
+by default two properties were add
+    i.justify-content:flex-start; //for horizontal
+    ii.align-items:flex-start; //for vertical
