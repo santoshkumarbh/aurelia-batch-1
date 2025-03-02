@@ -4,6 +4,8 @@
 git stash
 git stash apply
 git reset --hard //to remove changes
+git log //To display all commits
+git log --oneline -n 5 //display top 5 commit msg
 
 
 <!-- 
@@ -39,3 +41,15 @@ when we use
 by default two properties were add
     i.justify-content:flex-start; //for horizontal
     ii.align-items:flex-start; //for vertical
+
+
+--------3.media query-----------
+//Tablet view
+@media only screen and (max-width:800px){
+
+}
+
+//Mobile view 
+@media only screen and (max-width:480px){
+    
+}
